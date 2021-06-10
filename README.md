@@ -74,6 +74,16 @@
   Continuous delivery is like a preparation process. The process of making the code to be deployable.
 
   Continuous deployment is the actual process of deployment into the production server and makes it available for the intended users.
+  
+  # What are all the way to build the projects in Jenkins?
+
+  i) BuildNow (Manual)
+
+  ii) Periodically Schedule (Based on the time) —> The time format has to follow the link https://crontab.guru/
+
+  iii) Based on the another projects build downstream project
+
+
 
 <img width="1440" alt="Screen Shot 2021-06-08 at 8 11 15 AM" src="https://user-images.githubusercontent.com/39657409/121471332-1f004980-c9dd-11eb-9ceb-377ca1850a12.png">
 <img width="1305" alt="Screen Shot 2021-06-09 at 6 14 17 PM" src="https://user-images.githubusercontent.com/39657409/121471375-30495600-c9dd-11eb-965d-a64d306e1a08.png">
