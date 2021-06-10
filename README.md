@@ -60,6 +60,20 @@
   brew services start jenkins-lts (Jenkins Start)
 
   brew services start jenkins-lts(Jenkins Stop)
+  
+  # Jenkins Master-Slave Architecture
+
+  CI —> Continous Integration
+  
+  CD —> Continuous Delivery / Continuous Deployment
+
+  Continuous Integration is the practice of running  your tests on a non-developer machine.
+  
+  automatically every time someone pushes new code into the source repository.
+
+  Continuous delivery is like a preparation process. The process of making the code to be deployable.
+
+  Continuous deployment is the actual process of deployment into the production server and makes it available for the intended users.
 
 <img width="1440" alt="Screen Shot 2021-06-08 at 8 11 15 AM" src="https://user-images.githubusercontent.com/39657409/121471332-1f004980-c9dd-11eb-9ceb-377ca1850a12.png">
 <img width="1305" alt="Screen Shot 2021-06-09 at 6 14 17 PM" src="https://user-images.githubusercontent.com/39657409/121471375-30495600-c9dd-11eb-965d-a64d306e1a08.png">
