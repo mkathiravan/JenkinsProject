@@ -54,7 +54,12 @@
   iv) Extensible
   
   v) Distributed
+  
+  # Jenkins Start & Stop Command: 
 
+  brew services start jenkins-lts (Jenkins Start)
+
+  brew services start jenkins-lts(Jenkins Stop)
 
 <img width="1440" alt="Screen Shot 2021-06-08 at 8 11 15 AM" src="https://user-images.githubusercontent.com/39657409/121471332-1f004980-c9dd-11eb-9ceb-377ca1850a12.png">
 <img width="1305" alt="Screen Shot 2021-06-09 at 6 14 17 PM" src="https://user-images.githubusercontent.com/39657409/121471375-30495600-c9dd-11eb-965d-a64d306e1a08.png">
