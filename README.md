@@ -101,5 +101,8 @@
 
 
  ## Install Delivery Plugin -> Code Commt ->  Build -> Test -> Release -> Deploy/Deliver
+ 
+   Pipeline is a suite of Jenkins features, installed as plugins, which enable implementing and integrating continuous delivery pipeline into Jenkins.
+ 
 <img width="1440" alt="Screen Shot 2021-06-10 at 9 05 50 AM" src="https://user-images.githubusercontent.com/39657409/121471476-6090f480-c9dd-11eb-955f-3add6b26554e.png">
 <img width="1437" alt="Screen Shot 2021-06-10 at 11 12 45 AM" src="https://user-images.githubusercontent.com/39657409/121471576-903ffc80-c9dd-11eb-8365-07a36e919637.png">
