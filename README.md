@@ -118,6 +118,52 @@
 
  ## Step 
  A singe task. Fundamentally a steps tells Jenkins what do to at a particular point of time.  
+ 
+     Jenkinsfile(Scripted Pipeline)
+
+      Node {
+		  stage(“Build”)
+                {
+ 		        }
+		  stage(“Test”)
+		    {
+		    }
+		  stage(“Deploy”)
+		  {
+		  }
+	
+   	  }
+
+Declarative Pipeline: 
+
+It provides a simple and friendly syntax to define a pipeline without the need of groovy script. Here, pipeline block defines the work done throughout the pipeline.
+
+Jenkinsfile(Declaratiive Pipeline)
+
+    Pipeline 
+    {	
+      Agent any
+    Stages {
+		  stage(“Build”)
+		steps {
+                {
+ 		}
+		stage(“Test”)
+		{
+			steps
+			{ }
+		}
+		stage(“Deploy”)
+		{
+			steps { }
+		}
+	
+   	  }
+    }
+    }
+
+
+Delivery Pipeline -> Have to mention initial and end job.
 
  
 <img width="1440" alt="Screen Shot 2021-06-10 at 9 05 50 AM" src="https://user-images.githubusercontent.com/39657409/121471476-6090f480-c9dd-11eb-955f-3add6b26554e.png">
