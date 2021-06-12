@@ -165,6 +165,8 @@ Jenkinsfile(Declaratiive Pipeline)
 
 Delivery Pipeline -> Have to mention initial and end job.
 
+Jenkins File -> It is a text file that contains definition of a Jenkins pipeline and is checked into source control. This Jenkins file we used for declarative pipeline.
+
  
 <img width="1440" alt="Screen Shot 2021-06-10 at 9 05 50 AM" src="https://user-images.githubusercontent.com/39657409/121471476-6090f480-c9dd-11eb-955f-3add6b26554e.png">
 <img width="1437" alt="Screen Shot 2021-06-10 at 11 12 45 AM" src="https://user-images.githubusercontent.com/39657409/121471576-903ffc80-c9dd-11eb-8365-07a36e919637.png">
